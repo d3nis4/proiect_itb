@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+
+  .bridge-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .wallets-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .wallets-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #4a5568;
+  }
+  
+  .wallets-section .wallet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .wallet-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .wallet-button:disabled {
+    background-color: #e2e8f0;
+    cursor: not-allowed;
+  }
+  
+  .wallet-button:hover:enabled {
+    background-color: #2b6cb0;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568;
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-red-500 {
+    color: #e53e3e;
+  }
+
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .transfer-button {
+    background-color: #48bb78;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .transfer-button:disabled {
+    background-color: #e2e8f0;
+    cursor: not-allowed;
+  }
+  
+  .transfer-button:hover:enabled {
+    background-color: #38a169;
+  }
+  
+  .input-field {
+    background-color: #edf2f7;
+    border: 1px solid #cbd5e0;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    color: #2d3748;
+    transition: border 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .input-field:focus {
+    border-color: #3182ce;
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .bridge-container {
+      padding: 15px;
+    }
+  
+    .wallets-section, .transfer-form {
+      padding: 20px;
+    }
+  
+    .wallet-button, .transfer-button, .input-field {
+      width: 100%;
+    }
+  }
+  

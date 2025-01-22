@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "composite": true,                   
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowSyntheticDefaultImports": true,
+      "resolveJsonModule": true
+    },
+    "include": ["src"]
+  }
+  

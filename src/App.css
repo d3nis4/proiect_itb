@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffe6f7; /* Fundal roz pal */
+  color: #ff69b4; /* Text roz intens */
+  font-family: 'Comic Sans MS', 'Cursive', sans-serif; /* Font cochet */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff99d6aa); /* Umbre roz intens */
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #ff69b4aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: #ffe6f7; /* Fundal roz pal */
+  border: 2px solid #ff69b4; /* Margine roz intens */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5); /* Umbre coquette */
+  margin-bottom: 1.5em;
+}
+
+.card:hover {
+  background-color: #ffb6c1; /* Fundal roz mai deschis la hover */
+}
+
+.read-the-docs {
+  color: #ff69b4; /* Text roz intens */
+  font-style: italic;
+  font-weight: bold;
+}
